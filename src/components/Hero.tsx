@@ -3,12 +3,12 @@ import HeroSvg from "./svgs/HeroSvg";
 
 function Hero() {
   return (
-    <div className="pt-5 px-7 xl:px-52 bg-assent">
+    <div className="pt-5 px-7 xl:px-52 bg-assent ">
       <div className="text-secondary text-lg lg:text-xl font-bold font-serif">
         Levi's Web Solutions
       </div>
       <div className="flex xl:justify-between  flex-col-reverse xl:flex-row gap-11 xl:gap-0 mt-9 xl:mt-20">
-        <div className="text-white xl:w-6/12 2xl:my-auto">
+        <div className="text-white xl:w-7/12 max-w-[36rem] 2xl:my-auto relative z-[15]">
           <h1 className=" text-4xl xl:text-6xl font-bold">
             We Are Here Every Step of the Way
           </h1>

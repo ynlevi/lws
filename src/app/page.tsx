@@ -8,10 +8,13 @@ export default function Home() {
   return (
     <div className="">
       <Hero />
-      <WiveTopSvg div={"bg-assent xl:-mt-80"} fill={"fill-background"} />
+      <WiveTopSvg
+        div={"bg-assent xl:-mt-72 2xl:-mt-[20rem]"}
+        fill={"fill-background"}
+      />
       <Portfolio />
       <Contact />
-      <WiveTopSvg div={"bg-background xl:-mt-[30rem] "} fill={"fill-assent "} />
+      <WiveTopSvg div={"bg-background xl:-mt-[30rem]"} fill={"fill-assent "} />
       <Footer />
     </div>
   );

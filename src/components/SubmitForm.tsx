@@ -48,7 +48,7 @@ export default function SubmitForm() {
         />
       </div>
       <input
-        className={`mt-2 w-fit py-3 px-5 text-white bg-primary rounded-xl`}
+        className={`mt-2 w-fit rounded-xl font-bold px-4 py-3 inline-block bg-secondary text-text md:hover:-translate-y-1 duration-300 `}
         type="submit"
         value="Get an Offer"
       />
