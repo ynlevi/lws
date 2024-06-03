@@ -694,3 +694,5 @@ const HeroSvg: React.FC<{ className: string }> = ({ className: string }) => (
     </defs>
   </svg>
 );
+
+export default HeroSvg;
