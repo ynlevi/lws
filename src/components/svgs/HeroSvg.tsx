@@ -1,6 +1,6 @@
 import React from "react";
 
-const HeroSvg: React.FC<{ className: string }> = ({ className: string }) => (
+const HeroSvg: React.FC<{ className: string }> = ({ className }) => (
   <svg
     className={className}
     viewBox="0 0 785 614"
