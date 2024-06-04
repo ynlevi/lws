@@ -55,9 +55,9 @@ const WebItem: React.FC<{
 };
 
 const Portfolio: React.FC = () => (
-  <div className="pt-16 pl-7 lg:pl-52 bg-background text-text">
+  <div className="pt-16 pl-7 xl:pl-52 bg-background text-text">
     <h2 className="font-bold text-4xl ">Portfolio.</h2>
-    <div className="snap-x snap-normal overflow-x-scroll mt-6 flex gap-4">
+    <div className="snap-x snap-normal snap-start overflow-x-scroll mt-6 flex gap-4 pr-7 xl:pr-52">
       {webs.map((web, i) => (
         <WebItem key={i} {...web} />
       ))}

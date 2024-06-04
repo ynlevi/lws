@@ -27,7 +27,7 @@ export default function Contact() {
               className="object-cover rounded-full "
             />
           </div>
-          <div className="hidden xl:inline-block w-[820px] h-[820px] bg-primary rounded-full absolute ml-auto -top-36 -right-[262px] " />
+          <div className=" w-80 h-80 xl:w-[820px] xl:h-[820px] bg-primary rounded-full absolute ml-auto left-28 top-8 xl:-top-36 xl:-right-[262px] " />
         </div>
       </div>
     </div>
