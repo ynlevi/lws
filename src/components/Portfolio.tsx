@@ -35,7 +35,7 @@ const WebItem: React.FC<{
 }> = ({ name, src, link }) => {
   return (
     <div
-      className={`snap-start h-40 w-72 shrink-0 max-w-[77%] relative rounded-lg xl:h-72 xl:w-[40%] xl:max-w-[30rem]`}
+      className={`snap-start h-40 w-72 shrink-0 max-w-[77%] relative rounded-lg xl:h-72 xl:w-[40%] xl:max-w-[30rem] `}
     >
       <Link href={link} target={link !== "/" ? "_blank" : "_self"}>
         <Image
@@ -44,7 +44,11 @@ const WebItem: React.FC<{
           className="object-cover h-full w-full rounded-lg"
           fill
         />
-        <h4 className="text-xl">{name}</h4>
+        <div className="absolute rounded-b-lg z-10 w-full bottom-0 h-20 bg-gradient-to-t from-primary to-transparent flex items-end">
+          <h4 className="text-xl lg:text-2xl p-2 lg:p-4 tracking-wider font-serif capitalize text-text">
+            {name}
+          </h4>
+        </div>
       </Link>
     </div>
   );

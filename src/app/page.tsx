@@ -6,7 +6,7 @@ import WiveTopSvg from "@/components/svgs/WiveTopSvg";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-background">
       <Hero />
       <WiveTopSvg
         div={"bg-assent xl:-mt-72 2xl:-mt-[20rem]"}

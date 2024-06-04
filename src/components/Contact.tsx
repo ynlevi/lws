@@ -6,7 +6,7 @@ import SubmitForm from "./SubmitForm";
 export default function Contact() {
   return (
     <div className=" pt-14 xl:pt-44 px-7 xl:px-0 bg-background font-bold flex flex-col-reverse xl:flex-row xl:justify-between overflow-x-hidden  ">
-      <div className="xl:w-5/12 xl:pl-52 relative z-[12]">
+      <div className="mt-12 xl:mt-0 xl:w-5/12 xl:pl-52 relative z-[12]">
         <h2 className="text-4xl">Contact.</h2>
         <h4 className="hidden xl:inline-block mt-8 text-xl xl:text-2xl text-center text-assent">
           I love what I do. hope you would too!
@@ -19,7 +19,7 @@ export default function Contact() {
         </h4>
 
         <div className="relative xl:pr-52 xl:mb-52">
-          <div className="relative z-10 w-72 xl:w-[484px] max-w-full aspect-square mx-auto mt-8 xl:m-0 xl:ml-auto">
+          <div className="relative z-10 w-72 xl:w-[484px] max-w-full aspect-square mx-auto mt-12 xl:m-0 xl:ml-auto">
             <Image
               src={profile}
               alt="profile"
@@ -27,7 +27,7 @@ export default function Contact() {
               className="object-cover rounded-full "
             />
           </div>
-          <div className="hidden xl:inline-block w-[820px] h-[820px] bg-[#FFDEB3] rounded-full absolute ml-auto -top-36 -right-[262px] " />
+          <div className="hidden xl:inline-block w-[820px] h-[820px] bg-primary rounded-full absolute ml-auto -top-36 -right-[262px] " />
         </div>
       </div>
     </div>

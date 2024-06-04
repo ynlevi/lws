@@ -27,7 +27,7 @@ export default function SubmitForm() {
       onSubmit={handleSubmit}
       method="POST"
       dir="auto"
-      className="z-10 relative flex flex-col gap-2 xl:py-12 text-sm lg:text-base w-full mx-auto"
+      className="z-10 relative flex flex-col gap-2 py-8 xl:py-12 text-sm lg:text-base w-full mx-auto"
     >
       <div className="flex flex-col">
         <label htmlFor="name">Name</label>
